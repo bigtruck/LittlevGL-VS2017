@@ -74,13 +74,13 @@ int main(int argc, char ** argv)
     //demo_create();
 	//lv_theme_t *th = lv_theme_alien_init(21, NULL);
 	//lv_test_stress_1();
-	lv_test_group_1();
+	//lv_test_group_1();
 
     /*Try the benchmark to see how fast your GUI is*/
 //    benchmark_create();
 
     /*Check the themes too*/
-//    lv_test_theme_1(lv_theme_night_init(220, NULL));
+    lv_test_theme_1(lv_theme_night_init(220, NULL));
 
     /* A keyboard and encoder (mouse wheel) control example*/
 //    lv_test_group_1();
